@@ -6,7 +6,5 @@ function loadIssue() {
     body: "Instructions say GET /team and POST /newteam. Rspec wants GET/newteam and POST/team."
   }
  
-  var template = Handlebars.compile(document.getElementById("issue-template").innerHTML);
-  var result = template(issue);
-  document.getElementsByTagName("main")[0].innerHTML += result;
+   document.getElementsByTagName("main")[0].innerHTML += result;
 }
